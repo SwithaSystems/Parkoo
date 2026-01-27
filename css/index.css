@@ -31,9 +31,22 @@ html {
         background-position-x: 570px;   
         background-size:1002.01px 748.42px;
     }
-    .parkoologohdr,.headerfont{
+    .subheading{
+        font-weight: 800;
+        font-size: 20px;
+        margin-top: -30px;   
+        margin-bottom: 15px;
+        color: #1B353C;
+    }
+
+    .parkoologohdr{
         padding-bottom: 40px;
     }
+
+    .headerfont{
+        padding-bottom: 10px;
+    }
+
     .amp{
         font-size: normal;
         font-weight:normal;
@@ -72,12 +85,22 @@ html {
         align-items: stretch;
     }
     
-    .cardsection .col {
+    /* .cardsection .col {
         display: flex;
         align-items: stretch;
         padding-left: 5px;
         padding-right: 5px;
+    } */
+
+    .cardsection .card{
+        height: 100%;
     }
+
+    .cardsection{
+    --bs-gutter-x: 40px;   
+    --bs-gutter-y: 40px;  
+}
+
     
     .featuresection .card{
         border: 0;
@@ -101,8 +124,10 @@ html {
         background-size: 800px 110px;
         font-weight: bolder;
         font-size: 51px;
-        line-height: 80px;
+        line-height: normal;
         margin-bottom: 0;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
     
     .aboutsection{
