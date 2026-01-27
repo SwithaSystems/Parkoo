@@ -48,7 +48,7 @@
                 <div class="row cardsection">
                     <div class="col collog1">
                         <div class="card card1 h-100 p-4">
-                            <img class="cardimg cardimg1 pb-5" src="D:\Projectsnew\Parkoofinal\images\section3findparkingjpg.jpg" style="width:105px">
+                            <img class="cardimg cardimg1 pb-5" src="images/section3findparkingjpg.jpg" style="width:105px">
                             <div class="card-body pb-5">
                                 <h6 class="card-title h4 text-center pb-3">Find Parking</h6>
                                 <p class="card-text text-center">
@@ -61,7 +61,7 @@
                     </div>
                     <div class="col collog2">
                         <div class="card card2 h-100 p-4">
-                            <img class="cardimg pb-5" src="D:\Projectsnew\Parkoofinal\images\serction3earnrewardsjpg.jpg" style="width:150px">
+                            <img class="cardimg pb-5" src="images/serction3earnrewardsjpg.jpg" style="width:150px">
                             <div class="card-body pb-5">
                                 <h6 class="card-title h4 text-center pb-3">Earn Rewards</h6>
                                 <p class="card-text text-center">
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-lg collog3">
                         <div class="card card3 h-100 p-4">
-                            <img class="cardimg pb-5" src="D:\Projectsnew\Parkoofinal\images\section3shopjpg.jpg" style="width:170px">
+                            <img class="cardimg pb-5" src="images/section3shopjpg.jpg" style="width:170px">
                             <div class="card-body pb-5">
                                 <h6 class="card-title h4 text-center pb-3">Shop</h6>
                                 <p class="card-text text-center">
@@ -108,7 +108,7 @@
         <div class="pb-5">
             <p class="applications text-center">OUR APPLICATION</p>
         </div>
-        <div class="section-padding p-0 m-0">
+        <div class="section-padding">
             <div class="screenshot_slider owl-carousel">
                 <div class="item">
                     <img class="owlimg" src="images/left2jpg.jpg" alt="">
@@ -128,11 +128,11 @@
             </div>
         </div>
         <script>
-            var owl = $('.screenshot_slider').owlCarousel({
+var owl = $('.screenshot_slider').owlCarousel({
     loop: true,
     responsiveClass: true,
     nav: true,
-    margin: 0,    
+    margin: 80,    
     autoplayTimeout: 4000,
     smartSpeed: 400,
     center: true,
@@ -140,12 +140,15 @@
     responsive: {
         0: {
             items: 1,
+            margin: 30
         },
         600: {
-            items: 5
+            items: 3,
+            margin: 30
         },
         1200: {
-            items: 5
+            items: 5,
+            margin: 50
         }
     }
 });

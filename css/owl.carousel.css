@@ -27,8 +27,8 @@
     line-height: 0;
     height: 0; }
   .owl-carousel .owl-stage-outer {
-    position: relative;
-    overflow: hidden;
+    /* position: relative; */
+    overflow: visible;
     /* fix for flashing background */
     -webkit-transform: translate3d(0px, 0px, 0px); }
   .owl-carousel .owl-wrapper,
@@ -46,9 +46,9 @@
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
-  .owl-carousel .owl-item img {
+  /* .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: 100%; } */
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
