@@ -292,6 +292,86 @@ html {
    RESPONSIVE MEDIA QUERIES
    ============================================ */
 
+/* Large Screens (1201px and above - 27" monitors, etc.) */
+@media screen and (min-width: 1201px) {
+    .headerfont {
+        font-size: 75px;
+        line-height: 90px;
+    }
+    
+    .headertext {
+        padding-right: 150px;
+    }
+    
+    .backgroundimage {
+        padding-left: 80px;
+        padding-top: 80px;
+        padding-bottom: 200px;
+        background-position-x: 450px;
+        background-size: 800px 600px;
+    }
+    
+    .featuresection .features {
+        font-size: 55px;
+        line-height: 160px;
+        background-size: 650px 105px;
+    }
+    
+    .cardpadding {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .cardsection .col {
+        display: flex;
+        align-items: stretch;
+    }
+    
+    .featuresection .cardimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .applications {
+        font-size: 42px;
+        line-height: 70px;
+        background-size: 650px 90px;
+        margin-bottom: 0;
+    }
+    
+    .aboutsection {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 80px;
+    }
+    
+    .footer {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .footerimg {
+        width: 500px;
+        height: 275px;
+        padding-left: 50px;
+    }
+    
+    .section-padding {
+        overflow-x: hidden;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 0;
+        margin-top: -30px;
+    }
+    
+    .screenshot_slider .owl-stage-outer {
+        overflow: hidden !important;
+    }
+}
+
 /* Small Laptop (992px - 1200px) */
 @media screen and (max-width: 1200px) and (min-width: 992px) {
     .headerfont {
