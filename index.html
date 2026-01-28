@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-   
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.green.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script> 
-    <link rel="stylesheet" href="js/index.js">
-    <style>
-    body {
-        font-family: 'Poppins';
-        background-color: #FFFFFF;
-    }
-    </style>
-    <title>ParkooLandingPage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap (ONLY ONE) -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.green.css">
+
+  <title>Parkoo Landing Page</title>
 </head>
+
 <body>
-    <div class="d-flex flex-column">
-        <div>
-            <div class="backgroundimage">
-                <div class="col-sm-6">
-                    <img class="parkoologohdr " src="images/ParkooLogohdr.jpg" alt="parkooimage">
-                    <h6 class="headerfont">Parkoo</h6>
-                    <h5 class="subheading">One app for parking across the UK</h5>
-                    <P class="headertext">
-                       Park and pay for parking in one place — powered by the National Parking Platform (NPP).
-                       No multiple apps. No confusion. Just parking made simple.
-                    </P>
-                </div>
-            </div>
+
+<!-- ================= HERO ================= -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT: TEXT -->
+     <div class="col-sm-6 col-12 order-2 order-sm-1">
+        <img class="parkoologohdr img-fluid mb-3"
+             src="images/ParkooLogohdr.jpg" alt="Parkoo logo">
+
+        <h1 class="subheading mb-3">
+          One app for parking across the UK
+        </h1>
+
+        <p class="headertext">
+          Park and pay for parking in one place — powered by the National Parking Platform (NPP).
+          No multiple apps. No confusion. Just parking made simple.
+        </p>
+      </div>
+
+      <!-- RIGHT: IMAGE -->
+     <div class="col-sm-6 col-12 order-1 order-sm-2 text-center">
+        <img
+          src="images/imagefirstbox.jpg"
+          class="img-fluid hero-image"
+          alt="Hero illustration"
+        >
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= FEATURES ================= -->
+<section class="featuresection">
+  <p class="features text-center">FEATURES</p>
+
+  <div class="cardpadding">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img class="cardimg mb-4" src="images/section3findparkingjpg.jpg" width="105">
+            <h4 class="text-center">Find Parking</h4>
+            <p class="text-center">
+              Quickly find available parking nearby or at your destination - whether it's on-street or in car parks.Parkoo connects you to multiple operators through open standards.  
+            </p>
+          </div>
         </div>
-        <div class="featuresection d-flex flex-column">
-            <div class="pb-5">
-                <p class="features text-center">FEATURES</p>
-            </div>
-            <div  class="cardpadding">
-                <div class="row cardsection">
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card card1 h-100">
-                            <img class="cardimg cardimg1 pb-5" src="images/section3findparkingjpg.jpg" style="width:105px">
-                            <div class="card-body">
-                                <h6 class="card-title h4 text-center pb-3">Find Parking</h6>
-                                <p class="card-text text-center">
-                                   Quickly find available parking nearby or at your destination — whether it’s on-street
-                                   or in car parks. Parkoo connects you to multiple operators through open standards.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card card2 h-100">
-                            <img class="cardimg pb-5" src="images/serction3earnrewardsjpg.jpg" style="width:150px">
-                            <div class="card-body">
-                                <h6 class="card-title h4 text-center pb-3">Park & Pay</h6>
-                                <p class="card-text text-center">
-                                    Start and stop parking sessions in seconds, view tariffs, and pay securely
-                                    from the app — no extra apps needed at participating locations.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card card3 h-100">
-                            <img class="cardimg pb-5" src="images/section3shopjpg.jpg" style="width:170px">
-                            <div class="card-body">
-                                <h6 class="card-title h4 text-center pb-3">Transparent Pricing</h6>
-                                <p class="card-text text-center">
-                                        See all parking charges up front, understand restrictions, and get digital
-                                        receipts — no surprises.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img class="cardimg mb-4" src="images/serction3earnrewardsjpg.jpg" width="150">
+            <h4 class="text-center">Park & Pay</h4>
+            <p class="text-center">
+              Start and  Start and stop parking sessions in seconds, view tariffs, and pay securely from the app — no extra apps needed at participating locations.
+                                
+            </p>
+          </div>
         </div>
-        <div class="aboutsection">
-            <div class="row">
-                <div class="col-sm-7">
-                  <img src="images/aboutsectionimg.jpg">
-                </div>
-                <div class="col-sm-5 aboutsectioncenter">
-                  <h6 class="h3 aboutheading">About Parkoo</h6>
-                  <hr class="aboutline">
-                  <p class="abouttext">
-                    Parkoo is a UK-focused parking app built to simplify how people park and pay.
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card h-100">
+            <img class="cardimg mb-4" src="images/section3shopjpg.jpg" width="170">
+            <h4 class="text-center">Transparent Pricing</h4>
+            <p class="text-center">
+              See all parking charges up front, understand restrictions, and get digital receipts — no surprises.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="aboutsection">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-7 col-12 mb-4 mb-md-0">
+        <img src="images/aboutsectionimg.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-5 col-12">
+        <h3 class="aboutheading">About Parkoo</h3>
+        <hr class="aboutline">
+        <p class="abouttext">
+         Parkoo is a UK-focused parking app built to simplify how people park and pay.
                     Instead of juggling multiple operator apps, Parkoo connects you to a growing
                     network of participating car parks through one platform — using the National
                     Parking Platform (NPP) as the backbone.
@@ -106,101 +124,77 @@
                     We’re committed to expanding into additional parking services over time,
                     all on a standards-based, interoperable platform.
                 </p>
-                </div>
-              </div>
-        </div>
-        <div class="pb-5">
-            <p class="applications text-center">OUR APPLICATION</p>
-        </div>
-        <div class="section-padding">
-            <div class="screenshot_slider owl-carousel">
-                <div class="item">
-                    <img class="owlimg" src="images/left2jpg.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img class="owlimg" src="images/right1jpg.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img class="owlimg" src="images/centerjpg.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img class="owlimg" src="images/right1jpg.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img class="owlimg" src="images/left2jpg.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <script>
-$(document).ready(function() {
-    var owl = $('.screenshot_slider').owlCarousel({
-        loop: true,
-        responsiveClass: true,
-        nav: true,
-        margin: 80,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        autoplayHoverPause: true,
-        smartSpeed: 400,
-        center: true,
-        navText: ['&#8592;', '&#8594;'],
-        responsive: {
-            0: {
-                items: 1,
-                margin: 30
-            },
-            600: {
-                items: 3,
-                margin: 30
-            },
-            1200: {
-                items: 5,
-                margin: 50
-            }
-        }
-    });
-
-    /****************************/
-
-    jQuery(document.documentElement).keydown(function (event) {    
-        // handle cursor keys
-        if (event.keyCode == 37) {
-           // go left
-          owl.trigger('prev.owl.carousel', [400]);
-        } else if (event.keyCode == 39) {
-           // go right
-            owl.trigger('next.owl.carousel', [400]);
-        }
-    });
-});
-        </script>
-        <div class="footer">
-            <div class="footer2sections">
-                <div class=" footerfirstsection col">
-                    <div class="d-flex flex-column">
-                        <img class="footerlogo mb-3" src="images\footerlogo.png">
-                        <hr class="footerline">
-                        <div class="footerimages d-flex flex-row pb-4 pt-3">
-                            <img class="imagefooter me-1" src="images/Group 55png.png" alt="">
-                            <img class="imagefooter me-1" src="images/Group 56png.png" alt="">
-                            <img class="imagefooter me-1" src="images/Group 57png.png" alt="">
-                            <img class="imagefooter" src="images/Group 59png.png" alt="">
-                        </div>
-                        <p class="footertext m-0">© 2026 Parkoo. All rights reserved.</p>
-                        <p class="footertext">
-                        Built for simple parking, powered by open standards.
-                        </p>
-                        <p class="footertext" style="font-size:12px;">
-                        Parkoo is an independent application. Integration with the National Parking
-                        Platform (NPP) is subject to membership approval and technical onboarding.
-                        </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <img class="footerimg" src="images\footerpng.png">
-                </div>
-            </div>
-            
-        </div>
+      </div>
     </div>
-</body>
+  </div>
+</section>
+
+<!-- ================= APPLICATION ================= -->
+<p class="applications text-center">OUR APPLICATION</p>
+
+<section class="section-padding">
+  <div class="container-fluid">
+    <div class="screenshot_slider owl-carousel">
+      <div class="item"><img src="images/left2jpg.jpg"></div>
+      <div class="item"><img src="images/centerjpg.jpg"></div>
+      <div class="item"><img src="images/right1jpg.jpg"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT -->
+      <div class="col-lg-6 col-md-12 footerfirstsection">
+        <div class="d-flex flex-column">
+          <img class="footerlogo mb-3" src="images/footerlogo.png">
+
+          <hr class="footerline">
+
+          <div class="footerimages d-flex gap-2 pb-4 pt-3">
+            <img class="imagefooter" src="images/Group 55png.png">
+            <img class="imagefooter" src="images/Group 56png.png">
+            <img class="imagefooter" src="images/Group 57png.png">
+            <img class="imagefooter" src="images/Group 59png.png">
+          </div>
+
+          <p class="footertext m-0">© 2026 Parkoo. All rights reserved.</p>
+          <p class="footertext">Built for simple parking, powered by open standards.</p>
+          <p class="footertext small">
+            Parkoo is an independent application. Integration with the National Parking
+            Platform (NPP) is subject to membership approval and technical onboarding.
+          </p>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="col-lg-6 col-md-12 text-lg-end text-center mt-4 mt-lg-0">
+        <img class="footerimg img-fluid" src="images/footerpng.png">
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+<!-- ================= JS ================= -->
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+$('.screenshot_slider').owlCarousel({
+  loop: true,
+  center: true,
+  nav: true,
+  autoplay: true,
+  responsive: {
+    0: { items: 1 },
+    768: { items: 2 },
+    1200: { items: 3 }
+  }
+});
+</script>
+        
