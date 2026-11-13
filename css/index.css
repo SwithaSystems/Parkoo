@@ -292,6 +292,27 @@ html {
   padding-top: 80px;
 }
 
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+
+.footer-legal-links a {
+  color: #c5e1f2;
+  font-size: 13px;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.footer-legal-links a:hover,
+.footer-legal-links a:focus-visible {
+  color: #00ccbb;
+  border-bottom-color: #00ccbb;
+  outline: none;
+}
+
 .screenshot_slider .owl-item {
   padding: 0;
 }
